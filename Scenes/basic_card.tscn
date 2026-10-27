@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://b14fay6ljl2wq"]
+
+[ext_resource type="Texture2D" uid="uid://bkoehio1fxlva" path="res://Assets/CardBack2.png" id="1_gbqmo"]
+[ext_resource type="Script" uid="uid://xaqyojgy7x67" path="res://Scripts/basic_card.gd" id="1_lifdq"]
+
+[node name="BasicCard" type="Node2D"]
+script = ExtResource("1_lifdq")
+
+[node name="CardBack" type="Sprite2D" parent="."]
+texture = ExtResource("1_gbqmo")
+region_enabled = true
+region_rect = Rect2(40, 66.13637, 744, 989.86365)
+
+[node name="CardFront" type="Sprite2D" parent="."]
